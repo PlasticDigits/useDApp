@@ -1,5 +1,5 @@
 {
-  "name": "@usedapp/core",
+  "name": "@pdusedapp/core",
   "version": "0.3.17",
   "main": "dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
