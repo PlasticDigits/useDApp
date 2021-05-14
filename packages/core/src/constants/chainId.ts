@@ -7,6 +7,8 @@ export enum ChainId {
   xDai = 100,
   Localhost = 1337,
   Hardhat = 31337,
+  BSC = 56,
+  BSCTestnet = 97
 }
 
 export const CHAIN_NAMES = {
@@ -18,6 +20,8 @@ export const CHAIN_NAMES = {
   [ChainId.xDai]: 'xDai',
   [ChainId.Localhost]: 'Localhost',
   [ChainId.Hardhat]: 'Hardhat',
+  [ChainId.BSC]: "BSC Mainnet",
+  [ChainId.BSCTestnet]: "BSC Testnet"
 }
 
 export const MULTICALL_ADDRESSES = {
@@ -27,6 +31,8 @@ export const MULTICALL_ADDRESSES = {
   [ChainId.Goerli]: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
   [ChainId.Kovan]: '0x2cc8688c5f75e365aaeeb4ea8d6a480405a48d2a',
   [ChainId.xDai]: '0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a',
+  [ChainId.BSC]: "0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb",
+  [ChainId.BSCTestnet]: "0x6e5bb1a5ad6f68a8d7d6a5e47750ec15773d6042"
 }
 
 export const TEST_CHAINS = [
@@ -36,4 +42,5 @@ export const TEST_CHAINS = [
   ChainId.Goerli,
   ChainId.Localhost,
   ChainId.Hardhat,
+  ChainId.BSCTestnet,
 ]
